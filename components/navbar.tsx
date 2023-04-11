@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center py-4">
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
+        <Link
           href="/"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         >
@@ -16,9 +16,9 @@ export default function Navbar() {
               -&gt;
             </span>
           </h2>
-        </a>
+        </Link>
 
-        <a
+        <Link
           href="/blog"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         >
@@ -28,7 +28,7 @@ export default function Navbar() {
               -&gt;
             </span>
           </h2>
-        </a>
+        </Link>
       </div>
     </nav>
   );

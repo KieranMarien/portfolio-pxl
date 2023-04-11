@@ -18,7 +18,7 @@ export default function Home() {
       <Intro ></Intro>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
+        <Link
           href="https://www.linkedin.com/in/kieran-marien/"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         >
@@ -34,9 +34,9 @@ export default function Home() {
           >
             Check out my LinkedIn profile to see my work experience and skills.
           </p>
-        </a>
+        </Link>
 
-        <a
+        <Link
           href="https://github.com/KieranMarienPXL"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
@@ -53,7 +53,7 @@ export default function Home() {
           >
             Check out my GitHub profile to see my projects and repositories.
           </p>
-        </a>
+        </Link>
       </div>
     </main>
   )
