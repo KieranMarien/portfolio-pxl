@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Intro from '@/components/intro'
 import Navbar from '@/components/navbar'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
