@@ -10,6 +10,7 @@ export default function Home() {
         <main className="bg-pattern flex min-h-screen flex-col items-center justify-between p-24 h-full">
             <Navbar></Navbar>
             <h1 className={`${inter.className} mb-3 text-4xl font-semibold`}>Portfolio</h1>
+            <p>warning: werkt het beste op grote schermen</p>
 
 
             <div className="mx-12 px-5 grid relative h-full">
