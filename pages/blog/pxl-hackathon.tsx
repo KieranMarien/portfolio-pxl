@@ -19,7 +19,7 @@ export default function Home() {
   controls
 />
 </div>
-        <div className="mx-12 px-5 border border-3 border-red border-solid grid relative">
+        <div className="mx-12 px-5 grid relative">
             <div className="flex flex-row justify-between mt-5 mb-14">
                 <div className="p-4 basis-2/4 justify-self-start static">
                     <p className="mb-4 text-lg">Het project ging van start met een introductie. Hierbij gaven twee studenten van ergotherapie uitleg over het project en belangrijker wie het doelpubliek voor het project was. Het doelpubliek was een klas met leerlingen met motorische beperkingen en dit was ook het belangrijkste in het project: het moest makkelijk bruikbaar zijn voor de leerlingen. De applicatie had twee hoofddoelen: het eerste was meetkunde. Hiermee zouden de studenten vormen kunnen tekenen, lengte meten en hoeken meten. Het tweede doel was wiskundige sommen, dit is wiskundige formules oplossen door getallen en symbolen te slepen. De studenten gaven aan dat bruikbaarheid extreem belangrijk was voor de doelgroep. Dus de focus viel echt op functionaliteit van de applicatie en niet hoe de applicatie er uit ziet.</p>
