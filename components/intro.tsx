@@ -5,12 +5,12 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Intro() {
   return (
-    <div className="flex flex-col lg:flex-row lg:items-center lg:justify-center mb-16 lg:mb-32">
+    <div className="flex flex-col lg:flex-row lg:items-center lg:justify-center mb-16 lg:mb-32" id="INTRO">
       <div className="lg:mr-8">
         <Image
           width={250}
           height={250}
-          alt="Kieran foto"
+          alt="Kieran Marien foto. Foto van de developer van de website."
           src="/MOI.jpg"
           className="rounded-full"
         />

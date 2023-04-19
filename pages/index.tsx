@@ -16,8 +16,9 @@ export default function Home() {
         </div>
         <Navbar/>
       </div>
+      <div id="INTRO">
       <Intro ></Intro>
-
+      </div>
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <Link
           href="https://www.linkedin.com/in/kieran-marien/"

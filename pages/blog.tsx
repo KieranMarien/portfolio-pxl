@@ -11,15 +11,9 @@ export default function Home() {
         <Navbar/>
       </div>
             <ul>
-                <ListItem imageSrc={'/blog/vuejs-icon.svg'} title={"Seminarie Appwise"} description={"Appwise/Wisemen: Interactive web apps with Vue (AON)"} date={"17/05/2022"} backLink={""} />
-                <ListItem imageSrc={'/blog/vuejs-icon.svg'} title={"Seminarie Appwise"} description={"Appwise/Wisemen: Interactive web apps with Vue (AON)"} date={"17/05/2022"} backLink={""} />
-                <ListItem imageSrc={'/blog/vuejs-icon.svg'} title={"Seminarie Appwise"} description={"Appwise/Wisemen: Interactive web apps with Vue (AON)"} date={"17/05/2022"} backLink={""} />
-                <ListItem imageSrc={'/blog/vuejs-icon.svg'} title={"Seminarie Appwise"} description={"Appwise/Wisemen: Interactive web apps with Vue (AON)"} date={"17/05/2022"} backLink={""} />
-                <ListItem imageSrc={'/blog/vuejs-icon.svg'} title={"Seminarie Appwise"} description={"Appwise/Wisemen: Interactive web apps with Vue (AON)"} date={"17/05/2022"} backLink={""} />
-                <ListItem imageSrc={'/blog/vuejs-icon.svg'} title={"Seminarie Appwise"} description={"Appwise/Wisemen: Interactive web apps with Vue (AON)"} date={"17/05/2022"} backLink={""} />
-                <ListItem imageSrc={'/blog/vuejs-icon.svg'} title={"Seminarie Appwise"} description={"Appwise/Wisemen: Interactive web apps with Vue (AON)"} date={"17/05/2022"} backLink={""} />
-                <ListItem imageSrc={'/blog/vuejs-icon.svg'} title={"Seminarie Appwise"} description={"Appwise/Wisemen: Interactive web apps with Vue (AON)"} date={"17/05/2022"} backLink={""} />
-                <ListItem imageSrc={'/blog/vuejs-icon.svg'} title={"Seminarie Appwise"} description={"Appwise/Wisemen: Interactive web apps with Vue (AON)"} date={"17/05/2022"} backLink={""} />
+                <ListItem imageSrc={'/blog/pxl-log.png'} title={"PXL Hackathon"} description={"2-daagse hackaton met voor PXL-Healthcare. Applicatie maken voor kinderen met motorische beperkingen om wiskunde te doen. "} date={"2/02/2023 🡪 23/02/2023"} backLink={"/blog/pxl-hackathon"} />
+                <ListItem imageSrc={'/blog/Google_-G-_Logo.svg'} title={"Google codejam"} description={"Google farewell round code jam. De laatste codejam die gehost wordt door google."} date={"15/04/2022"} backLink={"/blog/google-codejam"} />
+                <ListItem imageSrc={'vercel.svg'} title={"Deze website"} description={"Deze website, stappen hoe ik het heb gebouwd met voorbeelden"} date={"4/2022"} backLink={"/blog/portfolio"} />
             </ul>
         </main>
     )
