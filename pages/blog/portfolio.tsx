@@ -17,7 +17,7 @@ export default function Home() {
 
 
             <div className="mx-12 px-5 grid relative h-full">
-            <div className="flex flex-row justify-between mt-5 mb-14 ">
+            <div className="2xl:flex flex-row justify-between mt-5 mb-14 ">
                 <div className="p-4 basis-2/4 justify-self-start static">
                     <p className="mb-4 text-lg">Voor dit portfolio heb ik ervoor gekozen om een website te maken met Next.js. Ik heb enige kennis van React en wilde mijn vaardigheden uitbreiden door te leren werken met een React-framework. Next.js biedt ook veel functies waar ik nog weinig ervaring mee heb, in dit geval is dat search engine optimization. Ik denk dat deze vaardigheden als ontwikkelaar in de toekomst van pas zullen komen.</p>
                     <p className="mb-4 text-lg">Voordat ik begon aan de website, heb ik eerst andere portfolio&apos;s op internet bekeken voor inspiratie. Zo had ik een idee van hoe mijn website eruit zou gaan zien. Voor mijn selectie van de drie activiteiten wilde ik iets speciaals doen. Voor de hackathon voor kinderen met motorische beperkingen heb ik ervoor gekozen om tekst naar spraak toe te voegen, zodat mensen die moeite hebben met lezen de tekst kunnen voorlezen. Ik heb ervoor gekozen om dit op een gratis manier te doen door de tekst van tevoren uit te laten lezen en vervolgens de audio file te uploaden. Voor de Google hackathon heb ik ervoor gekozen om één probleem te kiezen en mijn gedachtegang en code voor de oplossing uit te leggen. Zo kan ik mijn vaardigheden als ontwikkelaar laten zien en anderen helpen die het probleem niet kunnen oplossen. De laatste activiteit was de website zelf, waarbij ik de nadruk legde op search engine optimization. Zo wilde ik laten zien dat ik als ontwikkelaar invloed kan hebben op het bereik van de websites die ik maak.</p>                
@@ -25,31 +25,31 @@ export default function Home() {
  De eerste activiteit waar ik een pagina voor heb gemaakt is de hackathon. Zoals al eerder gezegd, wil ik hier tekst naar spraak toevoegen. Ik heb de audiofiles gemaakt met de website TTSFree.com, hier kon ik stukken van mijn tekst uploaden en moest ik op het einde gewoon alle stukken samenvoegen in één groot bestand in plaats van veel kleintjes.
  </p>                </div>
                 <div className="static basis-2/4">
-                    <embed src="https://portfolio-pxl.vercel.app" className="w-full h-full border-white border-2 border-solid rounded-lg"></embed>
+                    <embed src="https://portfolio-pxl.vercel.app" className="w-full h-full border-white border-2 border-solid rounded-lg h-[132rem]"></embed>
                 </div>
             </div>
 
-            <div className="flex flex-row justify-between mt-5 mb-14 h-192">
+            <div className="2xl:flex flex-row justify-between mt-5 mb-14 h-192 ">
             <div className="p-4 basis-1/6 justify-self-start static py-32">
                     <p className="mb-4 text-lg">De eerste activiteit waar ik een pagina voor heb gemaakt is de hackathon. Zoals al eerder gezegd, wil ik hier tekst naar spraak toevoegen. Ik heb de audiofiles gemaakt met de website TTSFree.com, hier kon ik stukken van mijn tekst uploaden en moest ik op het einde gewoon alle stukken samenvoegen in één groot bestand in plaats van veel kleintjes.</p>                </div>
             <div className="static basis-5/6">
-                    <embed src="https://portfolio-pxl.vercel.app/blog/pxl-hackathon" className="w-full h-full border-white border-2 border-solid rounded-lg"></embed>
+                    <embed src="https://portfolio-pxl.vercel.app/blog/pxl-hackathon" className="w-full h-full border-white border-2 border-solid rounded-lg h-[132rem]"></embed>
                 </div>
             </div>
 
 
-            <div className="flex flex-row justify-between mt-5 mb-14 ">
+            <div className="2xl:flex flex-row justify-between mt-5 mb-14 ">
                 <div className="p-4 basis-1/6 justify-self-start static py-32">
                     <p className="mb-4 text-lg">De tweede activiteit op mijn website is de google hackathon. Hier heb ik de vraag die ik het fijnste vond volledig uitgelegd en mijn gedachtegang uitgelegd. Ik heb ervoor gekozen om maar één vraag uit te leggen omdat mijn gedachtegang niet veel verschilt tussen alle vragen. Hiermee wilde ik mensen die willen beginnen met coding challenges inzicht geven hoe ze de problemen kunnen aanpakken.</p>                </div>
                     <div className="static basis-5/6">
-                    <embed src="https://portfolio-pxl.vercel.app/blog/google-codejam" className="w-full h-full border-white border-2 border-solid rounded-lg"></embed>
+                    <embed src="https://portfolio-pxl.vercel.app/blog/google-codejam" className="w-full h-full border-white border-2 border-solid rounded-lg h-[132rem]"></embed>
                 </div>
             </div>
-            <div className="flex flex-row justify-between mt-5 mb-14 h-192">
+            <div className="2xl:flex flex-row justify-between mt-5 mb-14 h-192">
                 <div className="p-4 basis-1/6 justify-self-start static py-32">
                     <p className="mb-4 text-lg">De laatste activiteit staat niet echt op de website zelf omdat het de website zelf is. Het doel van deze was vooral voor mijzelf. Ik wou hiermee nieuwe dingen leren en dat heb ik ook gedaan. Ik heb geleerd hoe ik SVG-achtergronden kan gebruiken om makkelijk en snel mooie achtergronden te creëren. Ik heb geleerd hoe Next.js werkt en hoe het search engine optimization makkelijk maakt. En als laatste heb ik ook kunnen oefenen hoe ik mijn websites toegankelijker kan maken voor iedereen.</p>                </div>
                     <div className="static basis-5/6">
-                    <embed src="https://portfolio-pxl.vercel.app/blog/portfolio" className="w-full h-full border-white border-2 border-solid rounded-lg"></embed>
+                    <embed src="https://portfolio-pxl.vercel.app/blog/portfolio" className="w-full h-full border-white border-2 border-solid rounded-lg h-1 h-[132rem]"></embed>
                 </div>
             </div>
 
@@ -66,7 +66,7 @@ export default function Home() {
             <div>
                 <p className="mb-4 text-lg my-4">Het eerste wat ik hoger wou is de accessibilty score, deze is momenteel 94 maar is makkelijk naar 100 te krijgen. Eerst moeten we in de nextjs config file even de taal van de website instellen. Het tweede was title elements, title elementen toevoegen helpt met een beter overzicht. Ook hebben ik aria-labels toegevoegd aan mijn elementen.</p>
                 <p className="mb-4 text-lg my-4">Na dat we deze drie dingen hebben gedaan is onze accessibilty score 100 geworden. Ook is onze SEO met 10 punten gestegen naar 90. Maar onze performance heeft wel een kleine dip genomen.</p>          
-                <p className="mb-4 text-lg my-4">Het laatste wat onze SEO omlaag trekt is de performance. Maar voor dat we in de code gaan dingen gaan aanpassen gaan we eerst eens de applicatie builden en hosten in plaats van locaal de applicatie locaal in dev-modus te gebruiken. Ik doe dit omdat tijdens het builden van de applicatie gaat Next.js automatisch dingen optimaliseren.</p>
+                <p className="mb-4 text-lg my-4">Het laatste wat onze SEO omlaag trekt is de performance. Maar voor dat we in de code gaan dingen gaan aanpassen gaan we eerst eens de applicatie builden en hosten in plaats van locaal de applicatie locaal in dev-modus te gebruiken. Ik doe dit omdat tijdens het builden van de applicatie gaat Next.js automatisch dingen optimaliseren. Na het builden is de performance 97, veel hoger dan dit kan het niet echt zijn. </p>
                 <Image src="/blog/Lighthouse3.png" alt="Picture of lighthouse scan after accessibility" width={1000} height={1000} className="w-full h-full" />
             </div>
 

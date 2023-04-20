@@ -22,7 +22,7 @@ export default function Home() {
 />
 </div>
         <div className="mx-12 px-5 grid relative">
-            <div className="flex flex-row justify-between mt-5 mb-14">
+            <div className="2xl:flex flex-row justify-between mt-5 mb-14">
                 <div className="p-4 basis-2/4 justify-self-start static">
                     <p className="mb-4 text-lg">Het project ging van start met een introductie. Hierbij gaven twee studenten van ergotherapie uitleg over het project en belangrijker wie het doelpubliek voor het project was. Het doelpubliek was een klas met leerlingen met motorische beperkingen en dit was ook het belangrijkste in het project: het moest makkelijk bruikbaar zijn voor de leerlingen. De applicatie had twee hoofddoelen: het eerste was meetkunde. Hiermee zouden de studenten vormen kunnen tekenen, lengte meten en hoeken meten. Het tweede doel was wiskundige sommen, dit is wiskundige formules oplossen door getallen en symbolen te slepen. De studenten gaven aan dat bruikbaarheid extreem belangrijk was voor de doelgroep. Dus de focus viel echt op functionaliteit van de applicatie en niet hoe de applicatie er uit ziet.</p>
                     <p className="mb-4 text-lg">De eerste dag van de hackathon was zoals verwacht zeer chaotisch. We waren in een groepje van vijf mensen, vier applicatieontwikkelaars en één van systeem en netwerk. Dus we hadden de taken ruw verdeeld, mijn taak was ervoor zorgen dat we pdf’s kunnen uploaden en opslaan. Dan moest iemand het stuk van getallen en symbolen slepen maken. Iemand anders tekenen en meten. De laatste persoon moest het inlogsysteem maken. De voormiddag van de eerste dag was dus vooral uitleg en voorbereiding. Rond de middag hebben we als één grote groep broodjes gekregen en heb ik samen met een vriend een beetje geschaakt als ontspanning. Na de eerste dag hadden we allemaal apart werkende delen maar dit moest allemaal nog met elkaar geïntegreerd worden en dit was het moeilijkste. Dus op de tweede dag begon de “Integration Hell”. Hier hebben we de tweede dag een paar uur aangezeten om ervoor te zorgen dat het tekenen en slepen boven op de pdf ging en dat het tekenen dan ook werd opgeslagen. Rond de middag hebben we dan pizza besteld om even te ontspannen.</p>
@@ -32,7 +32,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="flex flex-row justify-between mt-5 mb-14">
+            <div className="2xl:flex flex-row justify-between mt-5 mb-14">
             <div className="static basis-2/4">
                     <Image src="/blog/hackathon2.gif" alt="Gif of the application" width={1000} height={1000} className="w-full h-full" />
                 </div>

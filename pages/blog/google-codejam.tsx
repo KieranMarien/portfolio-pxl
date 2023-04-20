@@ -42,16 +42,16 @@ export default function Home() {
 
             
             <div className="mx-12 px-5 grid relative">
-            <div className="flex flex-row justify-between mt-5 mb-14">
+            <div className="2xl:flex flex-row justify-between mt-5 mb-14">
                 <div className="p-4 basis-2/4 justify-self-start static">
                     <p className="mb-4 text-lg">Op 15/04/2034 heb ik meegedaan aan de Google code jam “farewell round”. Dit is voorlopig de laatste code jam die Google organiseert. Oorspronkelijk ging ik meedoen aan de vorige, maar de dag dat die was kon ik niet, dus heb ik aan de volgende meegedaan. Het duurde 4 uur en bestond uit vijf vragen. Deze vijf vragen moesten zo snel mogelijk opgelost worden en op basis van hoe snel de vragen werden opgelost werden er punten uitgedeeld. De kandidaten met de meeste punten konden verder naar de volgende ronde.</p>
                     <p className="mb-4 text-lg">De code jam begon heel slecht. Ik had me ingeschreven en ik zat in ronde A, volgens de website startte de code jam om 14:00 en eindigde het om 18:00. Maar iets wat ik over het oog had gezien is dat het in UTC was in plaats van GMT+2. Dus de jam begon eigenlijk pas om 16:00 dit was een probleem omdat dit betekende dat het eindigde om 20:00. Ik had om 19:00 plannen gemaakt om te gaan eten en ik kon dit niet echt uitstellen. Maar in plaats van op te geven had ik besloten om mijn best te doen voor de twee uur die ik had en dan de volgende dag de rest van de vragen op te lossen. Dit gaat misschien een beetje tegen de spirit van een code jam maar ik deed niet mee omdat ik naar een volgende ronde wou, ik deed mee omdat ik dit soort vraagstukken oplossen fijn vind.</p>                </div>
-                <div className="static basis-2/4">
+                <div className="static basis-2/4l">
                     <Image src="/blog/codejam1.gif" alt="Gif of the application" width={1000} height={1000} className="w-full h-full" />
                 </div>
             </div>
 
-            <div className="flex flex-row justify-between mt-5 mb-14">
+            <div className="2xl:flex flex-row justify-between mt-5 mb-14">
             <div className="static basis-2/4">
                     <Image src="/blog/codejam3.gif" alt="Gif of the application" width={1000} height={1000} className="w-full h-full" />
                 </div>
