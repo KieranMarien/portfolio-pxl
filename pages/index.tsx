@@ -15,7 +15,8 @@ export default function Home() {
             By  { 'Kieran Marien'}
         </div>
         <Navbar/>
-        <title>Home page</title>
+        <title>Kieran Marien Portfolio page</title>
+        <meta name="description" content="My PXL portfolio website. Contains my activities with some extra information." />
       </div>
       <div id="INTRO">
       <Intro ></Intro>
