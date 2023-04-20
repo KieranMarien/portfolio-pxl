@@ -64,14 +64,12 @@ export default function Home() {
             <Image src="/blog/Lighthouse.png" alt="Picture of lighthouse scan initital" width={1000} height={1000} className="w-full h-full" />
             </div>
             <div>
-                <p>Het eerste wat ik hoger wou is de accessibilty score, deze is momenteel 94 maar is makkelijk naar 100 te krijgen. Eerst moeten we in de nextjs config file even de taal van de website instellen. Het tweede was title elements, title elementen toevoegen helpt met een beter overzicht. Ook hebben ik aria-labels toegevoegd aan mijn elementen.</p>
-                <p>Na dat we deze drie dingen hebben gedaan is onze accessibilty score 100 geworden. Ook is onze SEO met 10 punten gestegen naar 90. Maar onze performance heeft wel een kleine dip genomen.</p>
-                <Image src="/blog/Lighthouse2.png" alt="Picture of lighthouse scan after accessibility" width={1000} height={1000} className="w-full h-full" />
+                <p className="mb-4 text-lg my-4">Het eerste wat ik hoger wou is de accessibilty score, deze is momenteel 94 maar is makkelijk naar 100 te krijgen. Eerst moeten we in de nextjs config file even de taal van de website instellen. Het tweede was title elements, title elementen toevoegen helpt met een beter overzicht. Ook hebben ik aria-labels toegevoegd aan mijn elementen.</p>
+                <p className="mb-4 text-lg my-4">Na dat we deze drie dingen hebben gedaan is onze accessibilty score 100 geworden. Ook is onze SEO met 10 punten gestegen naar 90. Maar onze performance heeft wel een kleine dip genomen.</p>          
+                <p className="mb-4 text-lg my-4">Het laatste wat onze SEO omlaag trekt is de performance. Maar voor dat we in de code gaan dingen gaan aanpassen gaan we eerst eens de applicatie builden en hosten in plaats van locaal de applicatie locaal in dev-modus te gebruiken. Ik doe dit omdat tijdens het builden van de applicatie gaat Next.js automatisch dingen optimaliseren.</p>
+                <Image src="/blog/Lighthouse3.png" alt="Picture of lighthouse scan after accessibility" width={1000} height={1000} className="w-full h-full" />
             </div>
-                
-                <div>
-                    Het laatste wat onze SEO omlaag trekt is de performance. Maar voor dat we in de code gaan dingen gaan aanpassen gaan we eerst eens de applicatie builden en hosten in plaats van locaal de applicatie locaal in dev-modus te gebruiken. Ik doe dit omdat tijdens het builden van de applicatie gaat Next.js automatisch dingen optimaliseren.
-                </div>
+
             </div>
             
         </main>
