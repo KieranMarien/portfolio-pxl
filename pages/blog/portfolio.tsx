@@ -70,7 +70,7 @@ export default function Home() {
             </div>
                 
                 <div>
-                    Het laatste wat onze SEO omlaag trekt is de performance dat gaan we nu proberen oplossen.
+                    Het laatste wat onze SEO omlaag trekt is de performance. Maar voor dat we in de code gaan dingen gaan aanpassen gaan we eerst eens de applicatie builden en hosten in plaats van locaal de applicatie locaal in dev-modus te gebruiken. Ik doe dit omdat tijdens het builden van de applicatie gaat Next.js automatisch dingen optimaliseren.
                 </div>
             </div>
             
