@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 export default function Intro() {
   return (
     <div className="flex flex-col lg:flex-row lg:items-center lg:justify-center mb-16 lg:mb-32" id="">
-      <div className="lg:mr-8">
+      <div className="lg:mr-8 basis-1/4">
         <Image
           width={250}
           height={250}
@@ -15,7 +15,7 @@ export default function Intro() {
           className="rounded-full"
         />
       </div>
-      <div className="text-left">
+      <div className="text-left basis-3/4">
         <h1 className={`${inter.className} mb-3 text-3xl font-semibold`}>
           Hey, dit is mijn portfolio
         </h1>

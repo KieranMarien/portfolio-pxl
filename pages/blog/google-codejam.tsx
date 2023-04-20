@@ -36,6 +36,8 @@ export default function Home() {
     return(
         <main className="bg-pattern flex min-h-screen flex-col items-center justify-between p-24">
             <Navbar></Navbar>
+            <title>Codejam page</title>
+
             <h1 className={`${inter.className} mb-3 text-4xl font-semibold`}>Google CodeJam</h1>
 
             
@@ -66,6 +68,7 @@ export default function Home() {
         
         <h1 className={`${inter.className} mb-3 text-4xl font-semibold mt-12`}>Hier leg ik even de code uit van 1 van de vragen</h1>
         <Link
+            aria-label='Google code jam question link'
           href="https://codingcompetitions.withgoogle.com/codejam/round/0000000000c95b94/0000000000cada38"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"

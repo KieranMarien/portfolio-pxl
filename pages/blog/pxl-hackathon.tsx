@@ -10,6 +10,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
     return(
     <main className="bg-pattern flex min-h-screen flex-col items-center justify-between p-24 w-100%">
+        <title>Hackathon page</title>
+
         <Navbar></Navbar>
         <div className="p-4 m-4">
         <h1 className={`${inter.className} mb-3 text-4xl font-semibold`}>PXL Hackathon</h1>
