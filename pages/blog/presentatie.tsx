@@ -1,6 +1,7 @@
 import Navbar from '@/components/navbar'
 import Iframe from 'react-iframe'
 export default function Home() {
+    // @ts-ignore
     return (
         <main>
             <Navbar></Navbar>
@@ -26,11 +27,8 @@ export default function Home() {
         height: "100%"
       }}
       src="https://view.genial.ly/648efa15eb7be6001719f21a"
-      type="text/html"
-      allowscriptaccess="always"
-      allowFullScreen="true"
+      allowFullScreen={true}
       scrolling="yes"
-      allownetworking="all"
       width={1200}
       height={675}
       frameBorder={0}
