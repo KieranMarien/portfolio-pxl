@@ -14,6 +14,8 @@ export default function Home() {
       height: 0
     }}
   >
+    {/* 
+// @ts-ignore */}
     <iframe
       title="MINIMAL PRESENTATION"
       style={{
